@@ -21,7 +21,12 @@ modules:
   - type: rpm-ostree
     repos:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+      - https://packages.microsoft.com/yumrepos/vscode/config.repo
+    keys:
+     - https://packages.microsoft.com/keys/microsoft.asc
     install:
+      - code-insiders
+      - keepassxc
       # - micro
       # - starship
     remove:
@@ -39,7 +44,6 @@ modules:
       repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
         - com.google.Chrome
-        - com.discordapp.Discord
         # - org.mozilla.firefox
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
@@ -48,6 +52,29 @@ modules:
       # Installing different branches of the same Flatpak is not supported.
       remove:
       # - org.gnome.eog
+    user:
+      repo-title: "Flathub (user)"
+      install:
+        # Internet
+        - com.discordapp.Discord
+        - com.tutanota.Tutanota
+
+        # Productivity
+        - org.onlyoffice.desktopeditors
+
+        # Creative
+        - org.kde.kdenlive
+        - org.kde.krita
+        - org.blender.Blender
+
+        # Gaming
+        - net.lutris.Lutris
+        - com.valvesoftware.Steam
+        - org.prismlauncher.PrismLauncher
+
+        # Devel
+        - io.github.shiftey.Desktop
+
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
