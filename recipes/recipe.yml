@@ -7,9 +7,20 @@ description: This is my personal OS image.
 base-image: ghcr.io/ublue-os/kinoite-main
 image-version: 40 # latest is also supported if you want new updates ASAP
 
+#stages
+# stages:
+#   - name: 
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
+
+  - type: akmods
+    base: main
+    install:
+      - openrgb
+      - ryzen-smu
+      - xpadneo
+
   - type: files
     files:
       - source: system
@@ -27,6 +38,12 @@ modules:
     install:
       - code-insiders
       - keepassxc
+      - virt-manager
+      - libvirt
+      - virt-install
+      - edk2-ovmf
+      - qemu-kvm
+
       # - micro
       # - starship
     remove:
@@ -57,7 +74,6 @@ modules:
       install:
         # Internet
         - com.discordapp.Discord
-        - com.tutanota.Tutanota
 
         # Productivity
         - org.onlyoffice.desktopeditors
@@ -74,7 +90,19 @@ modules:
 
         # Devel
         - io.github.shiftey.Desktop
+  
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - FiraCode
+        - JetBrainsMono
+        - SourceCodePro
+      google-fonts:
+        - Roboto
 
+  - type: chezmoi
+    repository: "https://github.com/pentrail/acadia_dotfiles"
+    wait-after-boot: "1m"
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
