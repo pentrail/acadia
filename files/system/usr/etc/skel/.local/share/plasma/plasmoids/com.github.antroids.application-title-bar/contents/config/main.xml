@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+    <kcfgfile name=""/>
+
+    <group name="Appearance">
+        <entry name="widgetMargins" type="Int">
+            <default>0</default>
+        </entry>
+        <entry name="widgetSpacing" type="Int">
+            <default>0</default>
+        </entry>
+        <entry name="windgetHorizontalAlignment" type="Int">
+            <default>1</default>
+        </entry>
+        <entry name="windgetVerticalAlignment" type="Int">
+            <default>128</default>
+        </entry>
+
+        <entry name="windowTitleMinimumWidth" type="Int">
+            <default>0</default>
+        </entry>
+        <entry name="windowTitleMaximumWidth" type="Int">
+            <default>640</default>
+        </entry>
+        <entry name="windowTitleFontSize" type="Int">
+            <default>11</default>
+        </entry>
+        <entry name="windowTitleFontSizeMode" type="Enum">
+            <choices>
+                <choice name="FixedSize" />
+                <choice name="HorizontalFit" />
+                <choice name="VerticalFit" />
+                <choice name="Fit" />
+            </choices>
+            <default>0</default>
+        </entry>
+        <entry name="windowTitleFontBold" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="windowTitleSource" type="Enum">
+            <choices>
+                <choice name="AppName" />
+                <choice name="Decoration" />
+                <choice name="GenericAppName" />
+            </choices>
+            <default>2</default>
+        </entry>
+        <entry name="windowTitleUndefined" type="String">
+            <default>&lt;Unknown&gt;</default>
+        </entry>
+        <entry name="windowTitleMarginsLeft" type="Int">
+            <default>0</default>
+        </entry>
+        <entry name="windowTitleMarginsTop" type="Int">
+            <default>0</default>
+        </entry>
+        <entry name="windowTitleMarginsBottom" type="Int">
+            <default>0</default>
+        </entry>
+        <entry name="windowTitleMarginsRight" type="Int">
+            <default>0</default>
+        </entry>
+        <entry name="widgetElements" type="StringList">
+            <default>windowCloseButton,windowMinimizeButton,windowMaximizeButton,windowIcon,windowTitle</default>
+        </entry>
+    </group>
+
+    <group name="Behavior">
+        <entry name="windowTitleDragEnabled" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="windowTitleDragOnlyMaximized" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="windowTitleDragThreshold" type="Int">
+            <default>10</default>
+        </entry>
+    </group>
+</kcfg>

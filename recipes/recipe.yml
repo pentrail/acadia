@@ -100,9 +100,5 @@ modules:
       google-fonts:
         - Roboto
 
-  - type: chezmoi
-    repository: "https://github.com/pentrail/acadia_dotfiles"
-    wait-after-boot: "1m"
-
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
