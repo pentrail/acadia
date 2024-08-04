@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="706">
+  <name>Application Title Bar</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>antroids</author>
+  <homepage>https://store.kde.org/p/2135509</homepage>
+  <licence></licence>
+  <version>0.2.3</version>
+  <rating>81</rating>
+  <downloads>1346</downloads>
+  <installedfile>/home/adam/.local/share/plasma/plasmoids/com.github.antroids.application-title-bar/</installedfile>
+  <id>2135509</id>
+  <releasedate>2024-03-08</releasedate>
+  <summary>Widget with window title and control buttons.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/77/08/97/2135509/logonew.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/77/08/97/2135509/logonew.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MDk5MTI2NDAiLCJvIjoiMSIsInMiOiI0YTNkYTZjZDU4Zjc5NGM2YmFjMzI1ZTM2MDRiMDE2ZjMwNmQ2MWQxY2FjMmQ0OTkyMjU3MDRmNjZkMTk1ZGYyZTk2N2FkNDEzODQxMjA5ZWM3MjEzYTAxNzQyODA1YTU4ODVmZWEzYzU3YzVlY2QwMzFjYzhhMzQ1NGNiZWJhNCIsInQiOjE3MTAxOTU0MTMsInN0ZnAiOm51bGwsInN0aXAiOiI3My4xOTkuMTc2LjIzOCJ9.nHu26sSAX4QJVbSf-7vQQDyusl6Mt-nsnwwW1vLt9T8/application-title-bar-0.2.3.plasmoid</payload>
+  <tags>extension,original-product,plasma,plasmoid,notitlebar,linux,kde,kde-plasma,gplv3,buttons,unix,window</tags>
+  <status>updateable</status>
+ </stuff>
+ <stuff category="706">
+  <name>USwitch</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>diVinae</author>
+  <homepage>https://store.kde.org/p/2135898</homepage>
+  <licence></licence>
+  <version>2.0.0</version>
+  <rating>64</rating>
+  <downloads>1740</downloads>
+  <installedfile>/home/adam/.local/share/plasma/plasmoids/com.dv.uswitcher/</installedfile>
+  <id>2135898</id>
+  <releasedate>2024-03-08</releasedate>
+  <summary>Minimal version of User Switch plasmoid (plasma 6 version).&lt;br />
+</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/45/95/72/2135898/screenshot-20240308-085226.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/45/95/72/2135898/screenshot-20240308-085226.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MDk4ODUxNjMiLCJvIjoiMSIsInMiOiJkMDI2ZDQ1OTlhYjY4ZTdhYTI2Y2E5NmMxZTdiNTRiMDc3ZTUzYjFjN2M0MGViNTEwNDBlMTliNDliMDRmNDlhY2E1ZDk4NDI2ZGMzOWE5MDQwZDJjMzBmZGNjMzBhY2VlMTJhMzMxNTA2N2E3ZDRiMjFhYTRlYTA4OGI0OWY3NiIsInQiOjE3MTAxOTQ1MTMsInN0ZnAiOm51bGwsInN0aXAiOiI3My4xOTkuMTc2LjIzOCJ9.fADcesiW5gYA9-gCnBq2QjOg1s74epzd7F2_PTf7BhQ/uswitch-v2.0.0.plasmoid</payload>
+  <tags>efi,extension,unix,plasma,linux,menu,gplv2-later,kde</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="706">
+  <name>Desktop Indicator</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>dhruv8sh</author>
+  <homepage>https://store.kde.org/p/2131462</homepage>
+  <licence></licence>
+  <version>v0.2</version>
+  <rating>69</rating>
+  <downloads>5730</downloads>
+  <installedfile>/home/adam/.local/share/plasma/plasmoids/org.kde.plasma.plasm6desktopindicator/</installedfile>
+  <id>2131462</id>
+  <releasedate>2024-03-05</releasedate>
+  <summary>A minimal virtual desktop indicator to be used as an alternative for a Pager.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/62/52/79/2131462/screenshot-20240221-034215-2.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/62/52/79/2131462/screenshot-20240221-034215-2.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MDkzNjk4MTMiLCJvIjoiMSIsInMiOiJiYTg0ZjI4M2FlNzQ0MzFhYWU3ZDJhZTEyNWU2MTRjYTU0MzUyNTdmYjY0Yjk2ZWY1Y2M4YTIwNThjNmRmODE0OGVkNzI3ZWIzMTdmZTY3ZmQwOWIwYTE0YTMyNjg4NTBhNzQwZDUwZmNkN2U2ZTIwY2JkYWE5NzQ2OGRkMWUzOCIsInQiOjE3MTAxOTQ2NTcsInN0ZnAiOm51bGwsInN0aXAiOiI3My4xOTkuMTc2LjIzOCJ9.K3t_9_XMTVKeRChTgfAXdUb9BAPCmL7hG4SNQP4yQRI/v0.2.1.tar.gz</payload>
+  <tags>applet,original-product,pager,plasma,kde,kde-plasma,linux,gplv3,unix,virtual-desktop,extension</tags>
+  <status>updateable</status>
+ </stuff>
+</hotnewstuffregistry>

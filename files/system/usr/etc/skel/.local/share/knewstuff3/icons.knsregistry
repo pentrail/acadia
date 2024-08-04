@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="132">
+  <name>Colloid icon theme</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>vinceliuice</author>
+  <homepage>https://store.kde.org/p/1661983</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>88</rating>
+  <downloads>5600</downloads>
+  <installedfile>/home/adam/.local/share/icons/Colloid-Light/*</installedfile>
+  <installedfile>/home/adam/.local/share/icons/Colloid-Dark/*</installedfile>
+  <installedfile>/home/adam/.local/share/icons/Colloid/*</installedfile>
+  <id>1661983</id>
+  <releasedate>2024-07-18</releasedate>
+  <summary>Colloid icon theme for linux desktops&lt;br />
+---------------&lt;br />
+You can install &lt;strong>Nord&lt;/strong> and &lt;strong>Dracula&lt;/strong> version on github: &lt;a href="https://github.com/vinceliuice/Colloid-icon-theme" target="_blank" rel="nofollow">https://github.com/vinceliuice/Colloid-icon-theme&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/32/24/44/1661983/563882d9817b062c592eb59d47b1c23dd0ab8fab54167e55ed0e7528cc40880767dd.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/32/24/44/1661983/563882d9817b062c592eb59d47b1c23dd0ab8fab54167e55ed0e7528cc40880767dd.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MjEzMDQzMjciLCJvIjoiMSIsInMiOiJiNzk0ZjhmZDY0OGM4ZGNiMTgyNjllZmNhMjZiZDhhZDUwMTJlODRlZDk3MTE4MmUxNjc4YmQ4MGI2NjEwOTg4NDM1M2M0ODMwZWM1Y2ZlMDUwYmI1YjBmNDM5Y2U2MmQwZGJlNDIxNDhhOWFiMWE2YzczMjUwNTU1ZmJmMTFkOSIsInQiOjE3MjI3NTA0MjAsInN0ZnAiOm51bGwsInN0aXAiOiI3My4xOTkuMTc2LjIzOCJ9.7wbrZv9YLoxrPh2L5_BmT4sFgpKaXtOO8bFkfpnoaGo/01-Colloid.tar.xz</payload>
+  <tags>unix,original-product,gplv3,icon-theme,linux</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

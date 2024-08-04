@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="104">
+  <name>Apple MacOS Sonoma Dark</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>vinceliuice</author>
+  <homepage>https://store.kde.org/p/2053177</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>64</rating>
+  <downloads>954</downloads>
+  <installedfile>/home/adam/.local/share/plasma/desktoptheme/MacSonoma-Dark/</installedfile>
+  <id>2053177</id>
+  <releasedate>2024-02-29</releasedate>
+  <summary>MacSonoma Plasma Dark theme</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/32/24/44/2053177/g1172.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/32/24/44/2053177/g1172.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTk1OTIzNzQiLCJvIjoiMSIsInMiOiIxNjkyOGFiMzAwNDA3N2I0YTY2MzI0YTcyMTRiMDA0MzBhOGE1MWMyMmM5MDY0MDc1NDdhNjMxZWE3NmQ1OGI4ZTBhNjZhYWRhNzU5NTdiYWViZThkMGExMDNiYWVkNzdjNzliYWIzMGFkZjkzMTY2MzM1MzA5NjcwNWE1NGE5NCIsInQiOjE3MjAyMzI1ODAsInN0ZnAiOm51bGwsInN0aXAiOiI3My4xOTkuMTc2LjIzOCJ9.J3RwoGKZPJg5u5NFZDkUXivg9OvGWvwvgXE7DJs36BQ/MacSonoma-Dark.tar.gz</payload>
+  <tags>unix,theme,plasma,original-product,gplv3,linux,kde</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>
