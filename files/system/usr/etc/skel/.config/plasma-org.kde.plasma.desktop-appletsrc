@@ -94,7 +94,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][29][Applets][36][Configuration][General]
-icon=/home/adam/.local/share/icons/WhiteSur-purple-dark/status/symbolic/content-loading-symbolic.svg
+icon=image-loading-symbolic
 showName=false
 showSett=true
 
