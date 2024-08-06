@@ -34,11 +34,27 @@ This is not a new linux distro, but rather a custom Fedora Atomic Image built us
 
 ## Installation
 You can generate an ISO by following these instructions.
+<details closed>
+<summary>Acadia Main Installation</summary>
+  
 1. Install podman
 2. Create a folder where the ISO should be stored:
 ```mkdir iso-output```
 3. Generate ISO:
 ```sudo podman run --rm --privileged --volume ./iso-output:/build-container-installer/build --security-opt label=disable --pull=newer ghcr.io/jasonn3/build-container-installer:latest IMAGE_REPO=ghcr.io/pentrail IMAGE_NAME=acadia IMAGE_TAG=latest VARIANT=Kinoite```
+
+</details>
+
+<details closed>
+<summary>Acadia Nvidia Installation</summary>
+  
+1. Install podman
+2. Create a folder where the ISO should be stored:
+```mkdir iso-output```
+3. Generate ISO:
+```sudo podman run --rm --privileged --volume ./iso-output:/build-container-installer/build --security-opt label=disable --pull=newer ghcr.io/jasonn3/build-container-installer:latest IMAGE_REPO=ghcr.io/pentrail IMAGE_NAME=acadia-nvidia IMAGE_TAG=latest VARIANT=Kinoite```
+
+</details>
 
 Detailed instructions are available [here](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso).
 
