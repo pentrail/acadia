@@ -5,7 +5,7 @@ description: Acadia Kinoite Main Image.
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/kinoite-main
-image-version: 40 # latest is also supported if you want new updates ASAP
+image-version: latest # latest is also supported if you want new updates ASAP
 
 #stages
 # stages:
@@ -35,8 +35,7 @@ modules:
     keys:
      - https://packages.microsoft.com/keys/microsoft.asc
     install:
-      - code-insiders
-      - keepassxc
+      - code
       - virt-manager
       - libvirt
       - virt-install
@@ -53,29 +52,26 @@ modules:
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
-    system:
-      # If no repo information is specified, Flathub will be used by default
+    user:
       repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
       repo-name: flathub
-      repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
-      install:
-        - com.google.Chrome
-        # - org.mozilla.firefox
-        # - org.gnome.Loupe
-        # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
-      # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
-      # only normal flatpak applications are (like Floorp Lightning web browser in this example).
-      # Installing different branches of the same Flatpak is not supported.
-      remove:
-      # - org.gnome.eog
-    user:
       repo-title: "Flathub (user)"
       install:
         # Internet
         - com.discordapp.Discord
+        - org.chromium.Chromium
 
         # Productivity
+        - org.keepassxc.KeePassXC
         - org.onlyoffice.desktopeditors
+        - org.kde.kalk
+        - org.kde.kontact
+        - org.kde.okular
+
+        # Multimedia
+        - org.kde.gwenview
+        - org.kde.elisa
+        - org.kde.kamoso
 
         # Creative
         - org.kde.kdenlive
@@ -83,8 +79,8 @@ modules:
         - org.blender.Blender
 
         # Gaming
-        - net.lutris.Lutris
         - com.valvesoftware.Steam
+        - net.davidotek.pupgui2
         - org.prismlauncher.PrismLauncher
 
         # Devel
@@ -98,7 +94,7 @@ modules:
         - SourceCodePro
       google-fonts:
         - Roboto
-        - Noto Sans
+        - Inter
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 

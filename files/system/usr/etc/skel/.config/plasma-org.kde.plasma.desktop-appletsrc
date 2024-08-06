@@ -4,16 +4,26 @@ RightButton;NoModifier=org.kde.contextmenu
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][107]
-ItemGeometries-1536x960=
+[Containments][108]
+ItemGeometries-1280x800=
+ItemGeometries-1754x982=
 ItemGeometriesHorizontal=
-activityId=4fc164b1-11e4-4aa7-bcaa-afca06f1fa49
+activityId=d9b98cfc-26d1-426a-8005-212e4194989f
 formfactor=0
 immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][108][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][108][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/Volna/
+PreviewImage=/usr/share/wallpapers/Volna/
+SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
 activityId=
@@ -24,6 +34,18 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
+[Containments][2][Applets][109]
+immutability=1
+plugin=org.kde.plasma.marginsseparator
+
+[Containments][2][Applets][109][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][2][Applets][110]
+immutability=1
+plugin=org.kde.plasma.marginsseparator
+
 [Containments][2][Applets][5]
 immutability=1
 plugin=org.kde.plasma.icontasks
@@ -33,7 +55,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=preferred://filemanager,applications:org.kde.konsole.desktop,applications:com.google.Chrome.desktop,applications:org.keepassxc.KeePassXC.desktop,applications:org.kde.kwrite.desktop,applications:org.onlyoffice.desktopeditors.desktop,applications:org.kde.kdenlive.desktop,applications:code-insiders.desktop,applications:io.github.shiftey.Desktop.desktop,applications:virt-manager.desktop,applications:org.kde.discover.desktop,applications:systemsettings.desktop
+launchers=preferred://filemanager,applications:org.kde.konsole.desktop,applications:org.chromium.Chromium.desktop,applications:org.kde.kontact.desktop,applications:org.keepassxc.KeePassXC.desktop,applications:org.kde.kalk.desktop,applications:org.kde.kwrite.desktop,applications:org.onlyoffice.desktopeditors.desktop,applications:org.kde.kamoso.desktop,applications:org.kde.kdenlive.desktop,applications:com.valvesoftware.Steam.desktop,applications:org.kde.elisa.desktop,applications:org.kde.discover.desktop,applications:systemsettings.desktop
 showOnlyCurrentDesktop=false
 wheelEnabled=false
 
@@ -49,16 +71,19 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][88][Configuration][General]
-customButtonImage=fedora-logo-icon
+customButtonImage=launch
 favoritesPortedToKAstats=true
+showRecentApps=false
+showRecentDocs=false
 useCustomButtonImage=true
+useExtraRunners=false
 
 [Containments][2][Applets][91]
 immutability=1
 plugin=org.kde.plasma.marginsseparator
 
 [Containments][2][General]
-AppletOrder=88;91;5
+AppletOrder=109;110;88;91;5
 
 [Containments][29]
 activityId=
@@ -84,7 +109,7 @@ plugin=com.dv.uswitcher
 [Containments][29][Applets][36][Configuration]
 PreloadWeight=100
 popupHeight=383
-popupWidth=274
+popupWidth=216
 
 [Containments][29][Applets][36][Configuration][Apps]
 appList=[["org.kde.plasma-systemmonitor.desktop",{"iconName":"view-process-tree"}],["org.kde.kinfocenter.desktop",{"iconName":"help-about"}],["systemsettings.desktop",{"iconName":"settings-configure"}],["org.kde.konsole.desktop",{"iconName":"container-terminal-symbolic"}]]
@@ -231,6 +256,7 @@ cpu/cpu6/usage=145,169,86
 cpu/cpu7/usage=103,169,86
 cpu/cpu8/usage=86,169,110
 cpu/cpu9/usage=86,169,152
+gpu=120,78,146
 gpu/gpu1/usage=255,255,255
 memory/physical/application=255,255,255
 memory/physical/used=255,255,255
@@ -242,7 +268,7 @@ gpu/gpu1/usage=GPU
 memory/physical/used=Memory
 
 [Containments][29][Applets][92][Configuration][Sensors]
-highPrioritySensorIds=["memory/physical/used","cpu/all/usage","gpu/gpu1/usage"]
+highPrioritySensorIds=["memory/physical/used","cpu/all/usage"]
 lowPrioritySensorIds=[]
 totalSensors=["cpu/all/usage"]
 
@@ -401,14 +427,14 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][53][Applets][68][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][53][Applets][69]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][53][Applets][69][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][53][Applets][87]
 immutability=1
