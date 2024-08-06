@@ -27,10 +27,46 @@ This is not a new linux distro, but rather a custom Fedora Atomic Image built us
 - MacSonoma Dark Plasma Theme (https://github.com/vinceliuice/MacSonoma-kde)
 - Colloid Dark Icons (https://github.com/vinceliuice/Colloid-icon-theme)
 
-**Preinstalled Applications:**
-> Flatpaks: TODO
+**Preinstalled Packages:**
+<details closed>
+<summary>Flatpaks</summary>
+  
+- Chromium
+- Discord
 
-> RPMs: TODO
+- KeePassXC
+- OnlyOffice
+- Kalk
+- Kontact
+- Okular
+
+- Gwenview
+- Elisa
+- Kamoso
+
+- Kdenlive
+- Krita
+- Blender
+
+- Steam
+- ProtonUp-QT
+- Prism Launcher
+
+- Github Desktop
+
+</details>
+<details closed>
+<summary>RPMs</summary>
+
+- [Upstream Packages](https://github.com/ublue-os/main/blob/main/packages.json)
+- code (VSCode)
+- virt-manager
+- libvirt
+- virt-install
+- edk2-ovmf
+- qemu-kvm
+
+</details>
 
 ## Installation
 You can generate an ISO by following these instructions.
