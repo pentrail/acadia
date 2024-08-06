@@ -62,7 +62,7 @@ VirtualKeyboardEnabled=true
 BorderlessMaximizedWindows=false
 
 [Xwayland]
-Scale=1.2
+Scale=1
 
 [org.kde.kdecoration2]
 BorderSize=None
