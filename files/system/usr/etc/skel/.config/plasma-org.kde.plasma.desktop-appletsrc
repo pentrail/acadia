@@ -55,7 +55,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=preferred://filemanager,applications:org.kde.konsole.desktop,applications:org.chromium.Chromium.desktop,applications:org.kde.kontact.desktop,applications:org.keepassxc.KeePassXC.desktop,applications:org.kde.kalk.desktop,applications:org.kde.kwrite.desktop,applications:org.onlyoffice.desktopeditors.desktop,applications:org.kde.kamoso.desktop,applications:org.kde.kdenlive.desktop,applications:com.valvesoftware.Steam.desktop,applications:org.kde.elisa.desktop,applications:org.kde.discover.desktop,applications:systemsettings.desktop
+launchers=preferred://filemanager,applications:org.kde.konsole.desktop,applications:org.chromium.Chromium.desktop,applications:org.kde.kontact.desktop,applications:org.keepassxc.KeePassXC.desktop,applications:org.kde.kalk.desktop,applications:org.kde.kwrite.desktop,applications:org.onlyoffice.desktopeditors.desktop,applications:org.kde.kamoso.desktop,applications:org.kde.kdenlive.desktop,applications:org.kde.elisa.desktop,applications:com.valvesoftware.Steam.desktop,applications:org.kde.discover.desktop,applications:systemsettings.desktop
 showOnlyCurrentDesktop=false
 wheelEnabled=false
 
