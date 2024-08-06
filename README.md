@@ -44,7 +44,7 @@ Detailed instructions are available [here](https://blue-build.org/learn/universa
 
 ## Rebasing an existing Atomic install
 
-> **Warning: This is not reccomended because you will not get any of the desktop configuration and theming changes**  
+> **Warning: This is not recommended because you will not get any of the desktop configuration and theming changes**  
 > [This is also an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
 
 To rebase an existing atomic Fedora installation to the latest build:
