@@ -12,19 +12,20 @@ This is not a new linux distro, but rather a custom Fedora Atomic Image built us
 **Desktop:**
 - Centered dock and top menu bar
 - Dynamic virtual desktops (like GNOME)
-- Super key opens virtual desktop view (like GNOME)
+- Super key opens overview (like GNOME)
+- Searching in overview always opens new apps instead of searching existing ones (like GNOME)
 
 **Applets:**
-- Desktop Indiactors
-- USwitcher
-- Application Title Bar
+- Desktop Indiactors (https://github.com/dhruv8sh/plasma6-desktop-indicator)
+- USwitcher (https://gitlab.com/divinae/uswitch/)
+- Application Title Bar (https://github.com/antroids/application-title-bar)
 - Memory & CPU Usage Indicator
 
 **Theming:**
 - Transparency & Blur
 - Accent Color & Slight Window Tint from Wallpaper
-- MacSonoma Dark Plasma Theme
-- Colloid Dark Icons
+- MacSonoma Dark Plasma Theme (https://github.com/vinceliuice/MacSonoma-kde)
+- Colloid Dark Icons (https://github.com/vinceliuice/Colloid-icon-theme)
 
 **Preinstalled Applications:**
 > Flatpaks: TODO
@@ -34,7 +35,7 @@ This is not a new linux distro, but rather a custom Fedora Atomic Image built us
 ## Installation
 You can generate an ISO by following these instructions.
 1. Install podman
-2. Create a folder where the iso should be stored:
+2. Create a folder where the ISO should be stored:
 ```mkdir iso-output```
 3. Generate ISO:
 ```sudo podman run --rm --privileged --volume ./iso-output:/build-container-installer/build --security-opt label=disable --pull=newer ghcr.io/jasonn3/build-container-installer:latest IMAGE_REPO=ghcr.io/pentrail IMAGE_NAME=acadia IMAGE_TAG=latest VARIANT=Kinoite```
