@@ -15,7 +15,7 @@ image-version: 40 # latest is also supported if you want new updates ASAP
 modules:
 
   - type: akmods
-    base: main
+    base: nvidia
     install:
       - openrgb
       - xpadneo
