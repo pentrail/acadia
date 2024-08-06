@@ -16,7 +16,7 @@ This is not a new linux distro, but rather a custom Fedora Atomic Image built us
 - Searching in overview always opens new apps instead of searching existing ones (like GNOME)
 
 **Applets:**
-- Desktop Indiactors (https://github.com/dhruv8sh/plasma6-desktop-indicator)
+- Desktop Indicators (https://github.com/dhruv8sh/plasma6-desktop-indicator)
 - USwitcher (https://gitlab.com/divinae/uswitch/)
 - Application Title Bar (https://github.com/antroids/application-title-bar)
 - Memory & CPU Usage Indicator
