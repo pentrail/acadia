@@ -1,8 +1,46 @@
 # Acadia &nbsp; [![build-ublue](https://github.com/blue-build/template/actions/workflows/build.yml/badge.svg)](https://github.com/blue-build/template/actions/workflows/build.yml)
 
-## Installation
+## Screenshots
+![Desktop](/screenshots/desktop.png)
+![Dynamic Virtual Desktops](/screenshots/dynamic.png)
+\* Accent color based on wallpaper
 
-> **Warning**  
+## Features
+**Desktop:**
+- Centered dock and top menu bar
+- Dynamic virtual desktops (like GNOME)
+- Super key opens virtual desktop view (like GNOME)
+
+**Applets:**
+- Desktop Indiactors
+- USwitcher
+- Application Title Bar
+- Memory & CPU Usage Indicator
+
+**Theming:**
+- Transparency & Blur
+- Accent Color & Slight Window Tint from Wallpaper
+- MacSonoma Dark Plasma Theme
+- Colloid Dark Icons
+
+**Applications:**
+> Flatpaks:
+
+> RPMs:
+
+## Installation
+You can generate an ISO by following these instructions.
+1. Install podman
+2. Create a folder where the iso should be stored:
+```mkdir iso-output```
+3. Generate ISO:
+```sudo podman run --rm --privileged --volume ./iso-output:/build-container-installer/build --security-opt label=disable --pull=newer ghcr.io/jasonn3/build-container-installer:latest IMAGE_REPO=ghcr.io/pentrail IMAGE_NAME=acadia IMAGE_TAG=latest VARIANT=Kinoite```
+
+More instructions are available [here](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso).
+
+## Rebasing an existing Atomic install
+
+> **Warning: This is not reccomended as you will not get any of the desktop configuration and theming changes**  
 > [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
 
 To rebase an existing atomic Fedora installation to the latest build:
@@ -24,18 +62,6 @@ To rebase an existing atomic Fedora installation to the latest build:
   systemctl reboot
   ```
 
-The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
-
-## Known Issues
-- Digital clock may not render bold text.
-`
-Fix: Change the font weight in the applet settings to something else and apply, then return back to bold and apply.
-`
-
-## ISO
-
-If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
-
 ## Verification
 
 These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](https://github.com/sigstore/cosign). You can verify the signature by downloading the `cosign.pub` file from this repo and running the following command:
@@ -43,3 +69,9 @@ These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](ht
 ```bash
 cosign verify --key cosign.pub ghcr.io/pentrail/acadia
 ```
+
+## Known Issues
+- Digital clock may not render bold text.
+`
+Fix: Change the font weight in the applet settings to something else and apply, then return back to bold and apply.
+`
