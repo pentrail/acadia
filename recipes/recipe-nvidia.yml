@@ -16,7 +16,7 @@ modules:
 
   - type: akmods
     nvidia: true
-    base: hwe
+    base: main
     install:
       - openrgb
       - xpadneo
