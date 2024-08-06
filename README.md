@@ -33,25 +33,20 @@ This is not a new linux distro, but rather a custom Fedora Atomic Image built us
   
 - Chromium
 - Discord
-
 - KeePassXC
 - OnlyOffice
 - Kalk
 - Kontact
 - Okular
-
 - Gwenview
 - Elisa
 - Kamoso
-
 - Kdenlive
 - Krita
 - Blender
-
 - Steam
 - ProtonUp-QT
 - Prism Launcher
-
 - Github Desktop
 
 </details>
