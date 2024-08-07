@@ -1,7 +1,7 @@
 # Acadia &nbsp; [![build-ublue](https://github.com/blue-build/template/actions/workflows/build.yml/badge.svg)](https://github.com/blue-build/template/actions/workflows/build.yml)
 
 ## What is this?
-This is not a new linux distro, but rather a custom Fedora Atomic Image built using tools from [Universal Blue](https://universal-blue.org/) and [BlueBuild](https://blue-build.org/). You can think of it like a dotfile for an entire linux distribution. This image aims to provide the aesthetics of macOS and the functionality of GNOME in a KDE6 desktop. It also comes with basic productivity, development, gaming, and internet packages installed by default. 
+This is not a new linux distro, but rather a custom Fedora Atomic Image built using tools from [Universal Blue](https://universal-blue.org/) and [BlueBuild](https://blue-build.org/). You can think of it like a dotfile for an entire linux distribution. This image aims to provide the aesthetics of macOS and the functionality of GNOME in a Plasma 6 desktop. It also comes with basic productivity, development, gaming, and internet packages installed by default. 
 
 ## Screenshots
 ![Desktop](/screenshots/desktop.png)
