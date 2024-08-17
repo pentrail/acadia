@@ -46,10 +46,10 @@ modules:
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
-    user:
+    system:
       repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
       repo-name: flathub
-      repo-title: "Flathub (user)"
+      repo-title: "Flathub (system)"
       install:
         # Internet
         - com.discordapp.Discord
