@@ -35,6 +35,7 @@ modules:
       - virt-install
       - edk2-ovmf
       - qemu-kvm
+      - chromium
 
       # - micro
       # - starship
@@ -53,7 +54,7 @@ modules:
       install:
         # Internet
         # - com.discordapp.Discord
-        - org.chromium.Chromium
+        # - org.chromium.Chromium
 
         # Productivity
         # - org.keepassxc.KeePassXC
