@@ -31,7 +31,6 @@ This is not a new linux distro, but rather a custom Fedora Atomic Image built us
 <details closed>
 <summary>Flatpaks</summary>
   
-- Chromium
 - Discord
 - KeePassXC
 - OnlyOffice
@@ -54,6 +53,7 @@ This is not a new linux distro, but rather a custom Fedora Atomic Image built us
 <summary>RPMs</summary>
 
 - [Upstream Packages](https://github.com/ublue-os/main/blob/main/packages.json)
+- chromium
 - code (VSCode)
 - virt-manager
 - libvirt
