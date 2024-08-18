@@ -52,12 +52,12 @@ modules:
       repo-title: "Flathub (system)"
       install:
         # Internet
-        - com.discordapp.Discord
+        # - com.discordapp.Discord
         - org.chromium.Chromium
 
         # Productivity
-        - org.keepassxc.KeePassXC
-        - org.onlyoffice.desktopeditors
+        # - org.keepassxc.KeePassXC
+        # - org.onlyoffice.desktopeditors
         - org.kde.kalk
         - org.kde.kontact
         - org.kde.okular
@@ -67,18 +67,18 @@ modules:
         - org.kde.elisa
         - org.kde.kamoso
 
-        # Creative
-        - org.kde.kdenlive
-        - org.kde.krita
-        - org.blender.Blender
+        # # Creative
+        # - org.kde.kdenlive
+        # - org.kde.krita
+        # - org.blender.Blender
 
-        # Gaming
-        - com.valvesoftware.Steam
-        - net.davidotek.pupgui2
-        - org.prismlauncher.PrismLauncher
+        # # Gaming
+        # - com.valvesoftware.Steam
+        # - net.davidotek.pupgui2
+        # - org.prismlauncher.PrismLauncher
 
-        # Devel
-        - io.github.shiftey.Desktop
+        # # Devel
+        # - io.github.shiftey.Desktop
   
   - type: fonts
     fonts:
@@ -91,6 +91,28 @@ modules:
         - Inter
 
   - type: brew
+
+  - type: yafti
+    custom-flatpaks:
+      # Internet
+      - com.discordapp.Discord
+
+      # Productivity
+      - org.keepassxc.KeePassXC
+      - org.onlyoffice.desktopeditors
+
+      # Creative
+      - org.kde.kdenlive
+      - org.kde.krita
+      - org.blender.Blender
+
+      # Gaming
+      - com.valvesoftware.Steam
+      - net.davidotek.pupgui2
+      - org.prismlauncher.PrismLauncher
+
+      # Devel
+      - io.github.shiftey.Desktop
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
