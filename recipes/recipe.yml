@@ -67,6 +67,7 @@ modules:
         - org.kde.gwenview
         - org.kde.elisa
         - org.kde.kamoso
+        - io.mpv.Mpv
 
         # Creative
         - org.kde.kdenlive
