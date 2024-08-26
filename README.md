@@ -40,6 +40,7 @@ This is not a new linux distro, but rather a custom Fedora Atomic Image built us
 - Gwenview
 - Elisa
 - Kamoso
+- Mpv
 - Kdenlive
 - Krita
 - Blender
