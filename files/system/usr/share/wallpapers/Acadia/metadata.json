@@ -1,5 +1,10 @@
 {
     "KPlugin": {
+        "Authors": [
+            {
+                "Name": "yama_87 - Wallpapers.com"
+            }
+        ],
         "Id": "Acadia",
         "Name": "Acadia"
     }
