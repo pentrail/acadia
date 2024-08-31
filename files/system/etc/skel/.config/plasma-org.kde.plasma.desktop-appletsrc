@@ -21,8 +21,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][108][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/Volna/
-PreviewImage=/usr/share/wallpapers/Volna/
+Image=/usr/share/wallpapers/Acadia/
+PreviewImage=/usr/share/wallpapers/Acadia/
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
