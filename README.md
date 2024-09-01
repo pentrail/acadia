@@ -67,9 +67,9 @@ This is not a new linux distro, but rather a custom Fedora Atomic Image built us
 ## Installation
 
 ### Method 1. Downloading a Release ISO (Recommended)
-You can download a release ISO at https://www.adamwahid.com/acadia
+You can download a release ISO at https://www.adamwahid.com/acadia.
 
-Checksums are available [here](https://github.com/pentrail/acadia/releases). The latest release on the website will always correspond to the latest Checksum release on Github.
+Checksums are available [here](https://github.com/pentrail/acadia/releases).
 
 ### Method 2. Generating your own ISO
 You can generate an ISO of the latest image by following these instructions.
