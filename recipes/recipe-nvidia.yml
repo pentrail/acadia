@@ -42,6 +42,7 @@ modules:
       - virt-install
       - edk2-ovmf
       - qemu-kvm
+      - chromium
 
       # - micro
       # - starship
@@ -53,14 +54,14 @@ modules:
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
-    user:
+    system:
       repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
       repo-name: flathub
-      repo-title: "Flathub (user)"
+      repo-title: "Flathub (system)"
       install:
         # Internet
         - com.discordapp.Discord
-        - org.chromium.Chromium
+        # - org.chromium.Chromium
 
         # Productivity
         - org.keepassxc.KeePassXC
