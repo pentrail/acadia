@@ -65,7 +65,14 @@ This is not a new linux distro, but rather a custom Fedora Atomic Image built us
 </details>
 
 ## Installation
-You can generate an ISO by following these instructions.
+
+### Method 1. Downloading a Release ISO (Recommended)
+You can download a release ISO at https://www.adamwahid.com/acadia
+
+Checksums are available [here](https://github.com/pentrail/acadia/releases). The latest release on the website will always correspond to the latest Checksum release on Github.
+
+### Method 2. Generating your own ISO
+You can generate an ISO of the latest image by following these instructions.
 <details closed>
 <summary>Acadia Main Installation</summary>
   
@@ -90,7 +97,7 @@ You can generate an ISO by following these instructions.
 
 Detailed instructions are available [here](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso).
 
-## Rebasing an existing Atomic install
+### Method 3. Rebasing an existing Atomic install
 
 > **Warning: This is not recommended because you will not get any of the desktop configuration and theming changes**  
 > [This is also an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
