@@ -1,10 +1,10 @@
 # image will be published to ghcr.io/<user>/<name>
-name: acadia-nvidia
+name: acadia-asus
 # description will be included in the image's metadata
-description: Acadia Kinoite Nvidia Image.
+description: Acadia Kinoite ASUS Image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/kinoite-nvidia
+base-image: ghcr.io/ublue-os/kinoite-asus
 image-version: latest # latest is also supported if you want new updates ASAP
 
 #stages

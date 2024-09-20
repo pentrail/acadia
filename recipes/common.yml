@@ -1,17 +1,3 @@
-# image will be published to ghcr.io/<user>/<name>
-name: acadia
-# description will be included in the image's metadata
-description: Acadia Kinoite Main Image.
-
-# the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/kinoite-main
-image-version: latest # latest is also supported if you want new updates ASAP
-
-#stages
-# stages:
-#   - name: 
-# module configuration, executed in order
-# you can include multiple instances of the same module
 modules:
 
   - type: files

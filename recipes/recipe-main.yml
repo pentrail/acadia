@@ -1,10 +1,10 @@
 # image will be published to ghcr.io/<user>/<name>
-name: acadia-nvidia
+name: acadia
 # description will be included in the image's metadata
-description: Acadia Kinoite Nvidia Image.
+description: Acadia Kinoite Main Image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/kinoite-nvidia
+base-image: ghcr.io/ublue-os/kinoite-main
 image-version: latest # latest is also supported if you want new updates ASAP
 
 #stages
@@ -12,5 +12,7 @@ image-version: latest # latest is also supported if you want new updates ASAP
 #   - name: 
 # module configuration, executed in order
 # you can include multiple instances of the same module
+modules:
+
 modules:
   - from-file: common.yml
