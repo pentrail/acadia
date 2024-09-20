@@ -12,7 +12,6 @@ image-version: latest # latest is also supported if you want new updates ASAP
 #   - name: 
 # module configuration, executed in order
 # you can include multiple instances of the same module
-modules:
 
 modules:
   - from-file: common.yml
