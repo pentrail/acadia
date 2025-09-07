@@ -32,41 +32,43 @@ modules:
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
   - type: default-flatpaks
-    notify: true # Send notification after install/uninstall is finished (true/false)
-    system:
-      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      repo-name: flathub
-      repo-title: "Flathub (system)"
-      install:
-        # Internet
-        - com.discordapp.Discord
-        # - org.chromium.Chromium
-
-        # Productivity
-        - org.keepassxc.KeePassXC
-        - org.onlyoffice.desktopeditors
-        - org.kde.kalk
-        - org.kde.kontact
-        - org.kde.okular
-
-        # Multimedia
-        - org.kde.gwenview
-        - org.kde.elisa
-        - org.kde.kamoso
-        - io.mpv.Mpv
-
-        # Creative
-        - org.kde.kdenlive
-        - org.kde.krita
-        - org.blender.Blender
-
-        # Gaming
-        - com.valvesoftware.Steam
-        - net.davidotek.pupgui2
-        - org.prismlauncher.PrismLauncher
-
-        # Devel
-        - io.github.shiftey.Desktop
+    configurations:
+      - notify: true # Send notification after install/uninstall is finished (true/false)
+        scope: system
+        repo:
+          url: https://dl.flathub.org/repo/flathub.flatpakrepo
+          name: flathub
+          title: "Flathub (system)"
+        install:
+          # Internet
+          - com.discordapp.Discord
+          # - org.chromium.Chromium
+  
+          # Productivity
+          - org.keepassxc.KeePassXC
+          - org.onlyoffice.desktopeditors
+          - org.kde.kalk
+          - org.kde.kontact
+          - org.kde.okular
+  
+          # Multimedia
+          - org.kde.gwenview
+          - org.kde.elisa
+          - org.kde.kamoso
+          - io.mpv.Mpv
+  
+          # Creative
+          - org.kde.kdenlive
+          - org.kde.krita
+          - org.blender.Blender
+  
+          # Gaming
+          - com.valvesoftware.Steam
+          - net.davidotek.pupgui2
+          - org.prismlauncher.PrismLauncher
+  
+          # Devel
+          - io.github.shiftey.Desktop
   
   - type: fonts
     fonts:
